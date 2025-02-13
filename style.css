@@ -122,3 +122,12 @@ p {
         transform: scale(1.15);
     }
 }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+  .card {
+    max-width: 100%;
+    width: 95%;
+    padding: 40px;
+  }
+}
